@@ -199,6 +199,9 @@ footer p {
     border: 0px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: -10px
 }
 
 

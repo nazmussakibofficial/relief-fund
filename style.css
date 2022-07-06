@@ -157,18 +157,24 @@ h6 {
     font-size: 36px;
     font-family: 'Lobster', cursive;
     padding-top: 50px;
+    margin-bottom: 35px;
 }
 
 footer p {
     color: #D9DBE1;
     font-size: 14px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .subscriptions {
     text-align: center;
     margin: 0px 50px;
 }
+
+.subscriptions p {
+    margin-bottom: 50px;
+}
+
 
 #subscriptions-box {
     background-color: #FFF4D6;

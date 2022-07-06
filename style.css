@@ -18,6 +18,7 @@ h1 {
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 
 }
@@ -44,9 +45,12 @@ p {
 .donate-options {
     color: #FFFFFF;
     text-align: center;
-    margin: 0;
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
+
 
 h2 {
     color: #121212;
@@ -67,14 +71,121 @@ h3 {
     color: #707070;
     font-size: 30px;
     font-weight: 900;
+    padding: 5% 10%;
 }
 
 .donate-amounts {
-    width: 40%;
+    background-color: #FAFAFA;
+    width: 100%;
+    margin: 50px;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 30px;
-    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
+
+#custom-options-color1 {
+    color: #FF5959;
+}
+
+#custom-options-color2 {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+input[type=text],
+select {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.donation-plans {
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.donation-plans p {
+    color: #707070;
+}
+
+h4 {
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.plan-details {
+    text-align: justify;
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 100%;
+    margin: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.plan-details img {
+    height: 53px;
+    margin-top: 5%;
+}
+
+#custom-details-color1 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#custom-details-color2 {
+    background-color: #FFF4D6;
+}
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h6 {
+    color: #FF5959;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    padding-top: 50px;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+.subscriptions {
+    text-align: center;
+    margin: 0px 50px;
+}
+
+#subscriptions-box {
+    background-color: #FFF4D6;
+    width: 50%;
+    padding: 5% 10%;
+    margin: auto;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#subscriptions-box input[type=text] {
+    background-color: #D9D9D9;
+    width: 50%;
+}
+
+#subscriptions-box button {
+    border: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
